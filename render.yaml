@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: kickoff-foot-multijoueur
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /health
